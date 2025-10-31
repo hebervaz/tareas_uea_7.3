@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporeas Instruct</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Corporeas Instruct</h1>
+    <p>dice que:</p>
+    <p><span id="accion"></span></p>
+
+    <script>
+        // Archivo JSON
+        fetch('lista.json') // "Fetch" quiere decir "Busca"
+        .then(response => response.json()) // "Then" es una promesa: convierte la respuesta en JSON
+        .then(json => {
+            
+            //Datos del archivo jason
+            const acciones = json.acciones;
+            const partes = json.partes;
+            const lados = json.lados;
+
+            // Elemento al azar de cada lista
+            const accion = acciones[Math.floor(Math.random() * acciones.length)];
+            const parte = partes[Math.floor(Math.random() * partes.length)];
+            const lado = lados[Math.floor(Math.random() * lados.length)];
+
+            // Unión de los elementos
+            const instruccion = accion + " " + parte + " " + lado;
+
+            // Para mostrar la información en la página
+            document.getElementById("accion").innerHTML = instruccion;
+
+            // Consola
+            console.log(json);
+        })
+        .catch(error => {
+            console.error("Error al cargar el archivo JSON:", error);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+    "partes": ["brazo", "pie", "dedo índice", "pulgar"],
+    "acciones": ["mueve", "gira", "levanta", "extiende"],
+    "lados": ["izquierdo", "derecho"]
+  }
+
