@@ -1,8 +1,8 @@
 # tareas_uea_7.3
 <h1>Repositorio de tareas de la unidad 3 de la UEA 7</h1>
 
-<h23>Heber Vazquez Hernández
-Producción y comunicación en la cultura colaborativa
+<h23>Heber Vazquez Hernández<br>
+Producción y comunicación en la cultura colaborativa<br>
 Licenciatura en Arte y Comunicación Digitales</h3>
 
 <h2>Objetivo</h2>
@@ -16,13 +16,13 @@ Licenciatura en Arte y Comunicación Digitales</h3>
 <h2>Organización del repositorio</h2>
 <p>El repositorio está organizado de tal forma que sea de fácil entendimiento y consulta a quien acceda a él. A continuación se presenta su acomodo:</p>
 
-<p>Readme. Un archivo que sirve para proporcionar una descripción e información general sobre el repositorio para quien desee acceder a él y consultar sus contenidos.</p>
+<p><strong>Readme.</strong> Un archivo que sirve para proporcionar una descripción e información general sobre el repositorio para quien desee acceder a él y consultar sus contenidos.</p>
 
-<p>Carpetas. El repositorio se ordena principalmente en carpetas que contienen diversos archivos y contenidos correspondientes a cada clase, trabajo, tarea y/o proyecto propios de la licenciatura.</p>
+<p><strong>Carpetas.</strong> El repositorio se ordena principalmente en carpetas que contienen diversos archivos y contenidos correspondientes a cada clase, trabajo, tarea y/o proyecto propios de la licenciatura.</p>
 
-<p>Archivos. Dentro de cada carpeta se encuentran los archivos  de forma separada. Están nombrados de tal manera que puedan distinguirse con facilidad, ya sea por un nombre específico o por uno de uso general, según el tipo de código o tarea.</p>
+<p><strong>Archivos.</strong> Dentro de cada carpeta se encuentran los archivos  de forma separada. Están nombrados de tal manera que puedan distinguirse con facilidad, ya sea por un nombre específico o por uno de uso general, según el tipo de código o tarea.</p>
 
-<p>Subcarpetas. Las subcarpetas sirven para almacenar recursos extra que pueden llegar a necesitar algunas tareas. En caso de encontrarse, se nombra primero una carpeta como ASSETS y dentro de ella más carpetas para almacenar los recursos. Para imágenes y fotos estará una nombrada IMG, VIDEO para video, DOCS para archivos de texto, SOUND para audio, etc.</p>
+<p><strong>Subcarpetas.</strong> Las subcarpetas sirven para almacenar recursos extra que pueden llegar a necesitar algunas tareas. En caso de encontrarse, se nombra primero una carpeta como ASSETS y dentro de ella más carpetas para almacenar los recursos. Para imágenes y fotos estará una nombrada IMG, VIDEO para video, DOCS para archivos de texto, SOUND para audio, etc.</p>
 
 <p>Por último, dentro de cada archivo, se encuentran comentadas sus líneas de código para facilitar la consulta, entendimiento y funcionamiento de cada instrucción en particular y el código en general.</p>
 
